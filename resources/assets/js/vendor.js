@@ -29,9 +29,10 @@ window.Vue = require('vue');
 
 window.axios = require('axios');
 
-window.axios.defaults.headers.common = {
-    'X-Requested-With': 'XMLHttpRequest'
-};
+// window.axios.defaults.headers.common = {
+//     'X-Requested-With'				: 'XMLHttpRequest',
+//     'Access-Control-Allow-Headers'	: 'Content-Type'
+// };
 
 // this ensures we can use `this.$http.get()` instead of axios.get() 
 Vue.prototype.$http = axios;

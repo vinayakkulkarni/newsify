@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/top', 'NewsController@top')->name('top.news');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
