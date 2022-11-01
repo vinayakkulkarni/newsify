@@ -10,12 +10,12 @@
   "devDependencies": {
     "axios": "^0.21.1",
     "cross-env": "^5.0.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "jquery": "^3.5.0",
     "laravel-mix": "^1.4.5",
     "lodash": "^4.17.21",
     "moment": "^2.18.1",
-    "semantic-ui": "^2.2.13",
+    "semantic-ui": "^2.5.0",
     "uuid": "^3.0.1",
     "vue": "^2.4.4"
   },
